@@ -95,14 +95,13 @@ body {
 
 .image {
     display: block;
-    margin: 10px;
     margin-bottom: 10px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 8px 20px;
-    width: 640px;
-    max-height: 600px;
-    /*to do */
-    /*responsive image*/
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    max-height: 500px;
 }
 
 
