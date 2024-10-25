@@ -134,13 +134,12 @@ body {
 .breadcrumbs-content {
     color: #9A4EAE;
     text-decoration: none;
-    transition: all 0.4s ease-out;
+    transition: all 0.6s ease;
 }
 
 .breadcrumbs-content:hover {
     color: #494F55;
-    font-weight: bold;
-    padding: 10px;
+    padding: 0px 10px;
     text-decoration: underline;
 }
 
@@ -153,7 +152,7 @@ body {
 
 .footer-link {
     text-decoration: none;
-    transition: all 0.4s ease-out;
+    transition: all 0.4s ease;
     color: #F3F2ED;
 }
 
