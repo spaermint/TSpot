@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
 
 * {
     padding: 0;    
     margin: 0;
-    font-family: "Raleway", sans-serif;
+    font-family: "Sarala", sans-serif;
 }
 
 body {
@@ -58,6 +57,19 @@ body {
     margin: 64px;
 }
 
+.hero-elements {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 190px;
+}
+
+.hero-body {
+    margin: 20px;
+    margin-top: 50px;
+    text-align: justify;
+    font-size: 2rem;
+}
+
 .title {
     margin-top: 5px;
     font-size: 2.3rem;
@@ -102,6 +114,16 @@ body {
     max-width: 640px;
     height: auto;
     max-height: 500px;
+}
+
+.landing-image {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 8px 20px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
 }
 
 
