@@ -114,6 +114,13 @@ body {
     max-width: 640px;
     height: auto;
     max-height: 500px;
+    transition: all 0.3s ease;
+}
+
+.image:hover {
+    max-width: 645px;
+    max-height: auto;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px 10px 25px;
 }
 
 .landing-image {
