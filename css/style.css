@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: "Sarala", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -22,16 +23,16 @@ body {
 }
 
 .nav-bar {
-    flex-wrap: wrap;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #f3f2ed;
 }
 
 .nav-elements {
     display: block;
     margin: 20px 40px;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     text-decoration: none;
     color: #9a4eae;
     transition: all 0.3s ease;
@@ -39,18 +40,12 @@ body {
 
 .nav-elements:hover {
     color: #494f55;
-    margin: 15px 40px;
+    margin: 16px 40px;
 }
 
 .home-btn {
     color: #9a4eae;
-    margin-top: 20px;
     transition: all 0.3s ease;
-}
-
-.home-btn:hover {
-    transform: scale(1.25);
-    color: #494f55;
 }
 
 .hero-contents {
@@ -157,11 +152,30 @@ body {
 }
 
 .footer-link {
+    display: block;
     text-decoration: none;
     transition: all 0.4s ease;
     color: #f3f2ed;
+    margin: 5px auto;
 }
 
 .footer-link:hover {
     color: #9a4eae;
+}
+
+.back-to-top {
+    color: #f3f2ed;
+    background-color: #9a4eae;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 0.75rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 10px;
+    font-size: 1.75rem;
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #494f55;
+    bottom: 1.75rem;
 }
